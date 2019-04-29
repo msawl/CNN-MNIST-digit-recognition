@@ -25,7 +25,7 @@ print('Number of images in x_test', x_test.shape[0])
 
 
 
-filename = 'finalized_model_fun.sav'
+filename = 'finalized_model.sav'
 loaded_model = pickle.load(open(filename, 'rb'))
 image_index = 124   #insert any number you want from 1 to 10000
 plt.imshow(x_test[image_index].reshape(28, 28),cmap='Greys')

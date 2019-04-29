@@ -41,6 +41,6 @@ model.fit(x=x_train,y=y_train, epochs=10)
 model.evaluate(x_test, y_test)
 
 import pickle 
-filename = 'finalized_model_fun.sav'
+filename = 'finalized_model.sav'
 pickle.dump(model, open(filename, 'wb'))
 
