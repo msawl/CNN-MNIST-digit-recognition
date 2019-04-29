@@ -3,7 +3,7 @@ handwritting recognition using mnist dataset
 
 ## To create a CNN model:-
 1. Use Conda to load all the dependencies using this command 
-```conda env create -f enviornment.yml``` 
+```conda env create -f environment.yml``` 
 This will load all the dependencies that are needed
 2. Now do ```conda activate mnist-recognition```
 3. Now run the minst-digit-recognition-github.py file to generate the model to detect images using this command ```python minst-digit-recognition-github.py```
